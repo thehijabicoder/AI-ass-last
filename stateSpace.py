@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 
 
-# decrypts a ciphertext using a ceasar cipher with a given shift
+# decrypts a ciphertext using a caesar cipher with a given shift
 def decryptCeasar(ciphertext, key):
     plaintext = ""
     for c in ciphertext:
